@@ -24,10 +24,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Post: Identifiable {  // Allows the list to recognise the order of post object
-    let id: String
-    let title: String
-}
 
 let posts = [
     Post(id: "1", title: "Heloo"),
